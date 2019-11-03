@@ -1,0 +1,18 @@
+{
+"howToGetToken": "https://www.youtube.com/watch?v=VvCtWDQtz6A",
+
+"botSettings":{
+	"token": "",
+	"prefix": "/",
+	"reactionEmoji": "✅"
+	},
+
+"commands": {
+		"send-pizzas": true,
+		"token": true,
+		"dox": true,
+		"user-id": true,
+		"help": true
+	}
+
+}

@@ -1,0 +1,31 @@
+{
+  "name": "vortex-simulator-discord-selfbot",
+  "version": "1.0.0",
+  "description": "A useless/harmless selfbot for discord that I made for a meme lmao",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "github.com/SeverePain/vortex-simulator-lmao"
+  },
+  "keywords": [
+    "discord",
+    "discord.js",
+    "discordjs",
+    "selfbot",
+    "discordbot",
+    "meme",
+    "discordselfbot",
+    "discordbot"
+  ],
+  "author": "severepain",
+  "license": "LGPL-3.0-only",
+  "dependencies": {
+    "axios": "^0.19.0",
+    "discord.js": "^11.5.1",
+    "https": "^1.0.0",
+    "nodemon": "^1.19.4"
+  }
+}
