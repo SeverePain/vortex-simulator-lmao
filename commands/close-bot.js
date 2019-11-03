@@ -8,6 +8,10 @@ if(message.author.id == bot.user.id){
 setTimeout(function(){
 m.edit(":white_check_mark: Bot closed!")
 }, 3000)
+setTimeout(function(){
+m.delete()
+message.delete()
+}, 3000)
 	process.exit()
 }
 else{
