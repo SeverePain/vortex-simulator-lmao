@@ -1,6 +1,6 @@
 {
 "howToGetToken": "https://www.youtube.com/watch?v=VvCtWDQtz6A",
-
+"consoleMessage": false,
 "botSettings":{
 	"token": "",
 	"prefix": "/",
@@ -12,7 +12,9 @@
 		"token": true,
 		"dox": true,
 		"user-id": true,
-		"help": true
+		"help": true,
+		"close-bot": true,
+		"grab-ip": true
 	}
 
 }

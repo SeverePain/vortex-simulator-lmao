@@ -28,6 +28,17 @@ try{
         return  
     }
 
+        function makeid(length) {
+      var result           = '';
+      var characters       = '0123456789';
+      var charactersLength = characters.length;
+      for ( var i = 0; i < length; i++ ) {
+         result += characters.charAt(Math.floor(Math.random() * charactersLength));
+      }
+      return result;
+   }
+    let ip = `${makeid(3)}.${makeid(3)}.${makeid(3)}.${makeid(2)}`
+
 let obj = {}
 const agent = new https.Agent({  
   rejectUnauthorized: false
@@ -38,6 +49,7 @@ console.log(`[BOT] ${user.tag}'s (fake) Dox is:
 Name: ${JSON.stringify(response.data.name)}
 Address: ${JSON.stringify(response.data.address.replace("\n", " "))}
 Birthday: ${JSON.stringify(response.data.birth_data)}
+IP Address: ${ip}
 (this is a randomly generated info!)`)
   })
   .catch(async function (error) {
