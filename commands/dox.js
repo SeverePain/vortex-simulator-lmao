@@ -50,7 +50,7 @@ Name: ${JSON.stringify(response.data.name)}
 Address: ${JSON.stringify(response.data.address.replace("\n", " "))}
 Birthday: ${JSON.stringify(response.data.birth_data)}
 IP Address: ${ip}
-(this is a randomly generated info!)`)
+(this is randomly generated info!)`)
   })
   .catch(async function (error) {
 	          let m = await message.channel.send(`:x: Something went wrong with the Name Generation API! Please try again later!`)
