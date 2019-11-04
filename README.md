@@ -1,5 +1,7 @@
 # vortex-simulator-lmao
 
+*A stupid, useless, and fun discord selfbot made after Vortex. It serves no purpose other than to scare people lmao
+
 **How to download/use the bot**
 
 Download:
