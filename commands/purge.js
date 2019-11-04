@@ -6,7 +6,6 @@ module.exports.run = async (bot, message, args) => {
 
     let messagecount = parseInt(args[0]) || 99;
 	    console.log(`[BOT] Purge command detected! Purging ${messagecount} messages!`)
-message.delete()
     var deletedMessages = -1;
     
     message.channel.fetchMessages({limit: Math.min(messagecount + 1, 100)}).then(messages => {
