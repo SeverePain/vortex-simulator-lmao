@@ -12,10 +12,7 @@ async function decider(bot){
         return;
     }
     else{
-    
-    console.log(`[STARTUP] Bot is not running on a bot account!`)
-    console.log(`[STARTUP] Detecting if the bot is running on a bot account!`)
-
+ 
     console.log(`[STARTUP] Starting bot up with user account/selfbot preset!`)
 
         require(`./userbot/functions`)(bot)
