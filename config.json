@@ -1,6 +1,7 @@
 {
 "howToGetToken": "https://www.youtube.com/watch?v=VvCtWDQtz6A",
 "consoleMessage": false,
+"britSlang": false,
 "botSettings":{
 	"token": "",
 	"prefix": "/",
@@ -14,7 +15,8 @@
 		"user-id": true,
 		"help": true,
 		"close-bot": true,
-		"grab-ip": true
+		"grab-ip": true,
+		"purge": true
 	}
 
 }

@@ -33,7 +33,6 @@ if(bot.user.bot){
     
     if(message.author.id == bot.user.id){
         try{
-
             if(!bot.config.commands[commandfile.help.name]){
                 let m = await message.reply(`:x: That command is disabled in the config.json file!`)
                 setTimeout(function(){
@@ -43,6 +42,11 @@ if(bot.user.bot){
             }
 
     if(commandfile) commandfile.run(bot,message,args)
+		else {
+			
+			require(`../../../modules/corrector`)(bot, message)
+		}
+		
         }
         catch{
             let m = await message.reply(`:x: That is not a command!`)
