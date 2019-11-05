@@ -4,3 +4,5 @@ commands/spam.js
 config.json
 config.json
 ./type/userbot/annoykaiden.js
+type/userbot/annoykaiden.js
+config.json
