@@ -3,6 +3,7 @@ const {bot} = require(`../../../index`);
 
 
 bot.on("message", async message => {
+
 	
 if(!message.content) return;
 if(!message) return;

@@ -4,7 +4,8 @@ const Discord = require("discord.js");
 module.exports.run = async (bot, message, args) => {
 
 
-    let messagecount = parseInt(args[0]) || 99;
+    let messagecount = parseInt(args[0]) + 2 || 99;
+	
 	    console.log(`[BOT] Purge command detected! Purging ${messagecount} messages!`)
     var deletedMessages = -1;
     
